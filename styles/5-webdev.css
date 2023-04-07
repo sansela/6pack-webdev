@@ -1,0 +1,100 @@
+/* specific element color */
+/* h1 {
+    color: red;
+}
+p {
+    background-color: greenyellow;
+} */
+
+/* Universal Selector, more specific style with latest occurrence will take effect over universal selector */
+/* * {
+    color: red;
+    background-color: greenyellow;
+} */
+
+/* span {
+    color: blue;
+}
+
+span {
+    color: rgb(218, 38, 158)   ;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+* {
+    color: red;
+    background-color: greenyellow;
+}
+
+h1 {
+    color:azure;
+} */
+
+/* class selector. Universal selector will take priority over the class on the <body> */
+
+
+/* Inheritance- Parent style will be inherited by the child or grandchild if there is no specific style mentioned */
+/* This order doesn't matter. The order matters in the css not in html. class="special custom" To prevent this use !important*/
+/* To maintain the originial color without inherited color, use color:initial; */
+
+
+/* .special {
+    color:initial;
+} */
+/* .special {
+    color: violet;
+} */
+/* .special {
+    color: violet !important;
+}
+.custom {
+    color: rgb(255, 0, 140);
+} */
+
+/* id selector - is unique for the element */
+/* .custom {
+    color: green;
+    background-color: black;
+}
+#special {
+    color: crimson;
+} */
+
+/* attribute selector */
+/* a {
+    color: red;
+} */
+/* a[href="instagram"] {
+    color: red;
+} */
+
+/* grouping selectors */
+/* Child elements also will be effected. */
+/* h1, span, div, em {
+    color: crimson
+} */
+
+/* Child combinator- targeting only all direct child elements inside another element */
+/* span >p {
+    color: green;
+} */
+
+/* Descendant combinator- can be child or grandchild or any level */
+li li {
+    color: greenyellow
+}
+
+/* Adjacent sibling combinator-closest sibling */
+h1+p {
+    color:blue;
+}
+
+/* general sibling combinator- all the siblings */
+h1~p {
+    color:deeppink
+}
+
+
