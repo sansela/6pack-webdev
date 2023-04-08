@@ -1,0 +1,36 @@
+/* relative units 
+font-size: 100% - 100% of the parent element
+font-size: 50% - 50% of the parent element. E.g: <body> default font size is 16px. <h1> font size is 16 px.
+font-size: 2em - Two times of the parenet element. i.e.,200%. On <h1> it will become 32px
+font-size: 2rem - 2 times of the root element. <h1> parent element is <body>. But root element is <html>
+font-size: 20vh - 20% of the viewport height. If view port height is 1000px. 20% will be 200
+font-size: 10vw - 10% of the viewport width
+font-size: 10vmin - 10% of the viewport width/height, whichever is minimum. Generally height is min for desktops
+font-size: 10vmax - 10% of the viewport width/height, whichever is maximum.
+*/
+
+/* absolute units 
+font-size: 20px - fixed size 20px
+font-size: 20cm - fixed size 20 centimeters.
+font-size: 30mm - fixed size 30 millimeters.
+*/
+
+h1 {
+    color: greenyellow;
+    /* 
+    font-size: 500% 
+    font-size: 50%;
+    font-size: 4em;
+    font-size: 10vh;
+    font-size: 10vw;
+    font-size: 10vmin;
+    font: size 10vmax;
+    font-size: 50px;
+    font-size: 5cm;
+    font-size: 50mm;
+    */
+}
+
+body {
+    /* font-size: 20px; */
+}
