@@ -1,0 +1,24 @@
+/* 
+float: left right
+clear: left right both 
+clear: left - If the above float element is left, it sits bottom of the before element. If shifts above if the above float elemnt is right.
+
+display: inline block
+display: inline - won't take entaire row. only takes width of the content. Eg: span a
+display: block - takes entaire row. E.g: div span h1 p
+
+position: relative absolute static fixed
+position: relative - top bottom left right properties effect w.r.t to the original position of the element.
+position: absolute - top bottom left right properties effect w.r.t to the parent element.
+position: static -retains the orignial position
+position: fixed - fixed position on the view port no matter what. Other elements' position won't effect
+                - Eg: chat button
+
+top
+bottom
+left 
+right - if the position is relative, right:20px moves element to left by 20 px from the orignial position.
+        if the position is absolute, right:20px moves the element to the extreme right and leaves 20px space from parent element.
+border-radius - 100% for round div
+
+*/
