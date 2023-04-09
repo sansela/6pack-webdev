@@ -1,0 +1,26 @@
+ul {
+    /* list-style-type: circle; 
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-position: outside;
+    list-style-image: url('');
+    list-style: square inside;  SHORTHAND NOTATION
+    */
+}
+
+/* BOX model */
+.inner {
+    /* width: 200px;
+    background-color: aqua;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-y: auto;
+    border: 20px solid gray; -SHORTHAND NOTATION  */
+}
