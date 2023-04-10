@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/11-webdev.css">
+    <title>contact us form</title>
+</head>
+<body>
+    
+    <form method="post" action="">
+        <h1>Contact Us</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input required type="text" name="username" id="name">
+        </div><br>
+        <div>
+            Email: <input required type="email" name="useremail" id="email">
+        </div><br>
+        <div>
+            Phone: <input required type="number" name="number" id="number">
+        </div><br>
+        <div>
+            Message: <textarea required name="usermessage" id="message" cols="50" rows="10"></textarea>
+        </div><br>
+        <div>
+            Gender: 
+            <select name="usergender" id="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="ohter">Other</option>
+            </select>
+        </div><br>
+        <div class="checkki">
+            Front End:<input type="checkbox" name="frontend" id="frontend">
+            Back End:<input type="checkbox" name="backend" id="backend">
+        </div><br>
+        <div>
+            <fieldset>
+                <legend>Payment Method</legend>
+                Cash:<input type="radio" name="payment" id="cash" value="cash">
+                Credit Card:<input type="radio" name="payment" id="creditcard" value="creditcard">
+                Net Banking:<input type="radio" name="payment" id="netbanking" value="netbanking">
+            </fieldset>
+        </div><br>
+        <div>
+            Password: 
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>       
+    </form>
+</body>
+</html>
