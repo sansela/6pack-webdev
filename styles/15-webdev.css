@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    
+    border: 2px solid blue;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid orange;
+}
+#self {
+    align-self: auto;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
