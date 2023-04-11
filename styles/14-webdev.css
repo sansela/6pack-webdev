@@ -1,0 +1,21 @@
+body {
+    background-color: green;
+}
+
+div {
+    background-color: yellow;
+    /* width: 100px;
+    height: 100px; */
+    width: 12vw;
+    height: 20vh;
+    margin: 20px
+}
+
+@media all and (max-width:1000px) {
+    body {
+        background-color: gray;
+    }
+    div {
+        background-color: red;
+    }
+}

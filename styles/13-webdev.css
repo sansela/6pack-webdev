@@ -2,6 +2,7 @@ body {
     background-image: url("../media/bg.webp");
     margin: 0;
     height: 110vh;
+    overflow-x: hidden;
 }
 
 header {
