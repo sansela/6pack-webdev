@@ -1,0 +1,78 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(32, 31, 31);
+    margin:2vmax;
+    color: white;
+    font: 2vmax bold cursive; 
+    margin-left: 100px;
+    /* transition-property: background-color; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 0.5s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease-in; --initiall slow, fast at the end*/
+    /* transition-timing-function: ease-out; --initially fast slow at the end*/
+    /* transition-timing-function: ease-in-out; --slow at start and end*/
+    /* transition: background-color 2s ease-in 5s; --shorthand prop to 1.towhich_prop 2.Duration 3.timing_function 4.delay*/
+    transition: all 1s;
+}
+
+.box:hover {
+    background-color: tomato;
+    color: blue;
+    /* width: 80%; */
+    /* box-shadow: 0 0 20px black; */
+    /* box-shadow: 10px 10px 20px black; */
+    box-shadow: -10px -10px 20px black;
+
+    /* transform: translateX(30px); --moves towards X axis*/
+    /* transform: translateY(30px); */
+    /* transform: translateZ(30px); */
+    /* transform: translate(20px,-20px); --shorthand prop moves in X,Y directions*/
+    /* transform: translate(50%, 50%); */
+    /* transform: skewX(-30deg); --bends in X-direction*/
+    /* transform: skewY(30deg);  */
+    /* transform: skew(30deg, 30deg); --bends both in X and Y directions*/
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: rotateZ(90deg); */
+    /* transform: rotate(90deg); */
+    /* transform:scale(1.5) --size gets increased 1.5 times*/
+    /* transform: scale(1.5) rotate(90deg) translate(50%, 50%); --shorthand prop*/
+}
+
+#box1 {
+    /* animation-name: myanimation; */
+    /* animation-iteration-count: 2; */
+    /* animation-iteration-count: infinite; */
+    /* animation-duration: 1s; */
+    /* animation-fill-mode: forwards; --it will be struck at the to{} animation*/
+    /* animation-fill-mode: none; to reset to the orignial style*/
+    /* animation-timing-function: ease-in; */
+    /* animation-direction: alternate; --To avoid immediate start from the begining*/
+    animation: myanimation 5s linear 1s infinite alternate; /*shorthand-1.name 2.Duration 3.timing-function 4.count 5.direction*/
+}
+
+/* @keyframes myanimation {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: greenyellow;
+    }
+} */
+
+@keyframes myanimation {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: crimson;
+        border-radius: 100%;
+        scale: 10;
+    }
+    100% {
+        background-color: pink;
+    }
+
+}
