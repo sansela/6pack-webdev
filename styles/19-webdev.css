@@ -1,0 +1,58 @@
+/* paragraph pseudo selectors */
+p::before {
+    content: "BEFORE_CONTENT ";
+    color: blue;
+}
+p::after {
+    content: "AFTER_CONTENT";
+    color: crimson;
+}
+p::first-letter {
+    color: orange;
+    font-size: large;
+    font-style: oblique;
+}
+p::first-line {
+    background-color:lightblue
+}
+
+/* anchor tag pseudo selectors */
+a {
+    text-decoration: none;
+    margin: 20px;
+    font: 2rem bold;
+    color: brown;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: orange;
+}
+
+a:first-child {
+    color:blue;
+}
+
+a:nth-child(2) {
+    color: peachpuff;
+}
+
+/* input pseudo selectors */
+input {
+    font: bold 1rem cursive; 
+    color: tomato;
+}
+input::placeholder {
+    color:green
+}
+
+input::-webkit-file-upload-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
